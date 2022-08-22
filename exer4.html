@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex4</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 10%;
+        }
+        .principal1{
+            display: flex;
+            flex-direction: row;
+        }
+        .container1{
+            display: flex;
+            flex-direction: column;
+            width: 150px;
+        }
+
+        .container1 .quad1{
+            background: rgb(0, 191, 255);
+            height: 70px;
+        }
+        .container1 .quad2{
+            margin-top: 5px;
+            background: rgb(0, 149, 255);
+            height: 70px;
+        }
+        .container1 .quad3{
+            margin-top: 5px;
+            background: rgb(80, 19, 194);
+            height: 180px;
+        }
+
+        /*CONTAINER 2*/
+        .container2{
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+            margin-left: 5px;
+        }
+        .container2 .retangulo{
+            height: 330px;
+            background: orange;
+        }
+
+        .principal2{
+            display: flex;
+            flex-direction: column;
+            margin-left: 5px;
+        }
+        .principal2 .container1{
+            display: flex;
+            flex-direction: row;
+            width: 450px;
+        }
+        .principal2 .container1 .quad1{
+            background: orange;
+            width: 300px;
+        }
+        .principal2 .container1 .quad2{
+            background: rgb(212, 50, 175);
+            width: 300px;
+            margin-left: 5px;
+        }
+        .principal2 .container2{
+            display: flex;
+            flex-direction: row;
+            width: 450px;
+        }
+        .principal2 .container2 .quad1{
+            background:rgb(0, 149, 255);
+            margin-left: 0;
+            height: 80px;
+            width: 150%;
+            margin-top: 5px;
+        }
+
+        .principal2 .container2 .retangulo{
+            background: rgb(50, 212, 66);
+            margin-left: 5px;
+            height: 85px;
+            width: 280%;
+            margin-top: 5px;
+        }
+        
+        .abaixo{
+            display: flex;
+            flex-direction: row;
+        }
+        .principal2 .container3{
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+        }
+
+        .cima{
+            display: flex;
+            flex-direction: row;
+            width: 250px;
+        }
+
+        .baixo{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .principal2 .container3 .cima .quad1{
+            background:orange;
+            margin-left: 0;
+            height: 60px;
+            width: 80%;
+            margin-top: 5px;
+        }
+        .principal2 .container3 .cima .quad2{
+            background:gray;
+            margin-left: 5px;
+            height: 60px;
+            width: 40%;
+            margin-top: 5px;
+        }
+        .principal2 .container3 .baixo .quad3{
+            background:rgb(80, 19, 194);
+            margin-left: 0;
+            height: 95px;
+            width: 70%;
+            margin-top: 5px;
+        }
+
+        .principal2 .container3 .baixo .quad4{
+            background:rgb(212, 50, 175);
+            margin-left: 5px;
+            height: 95px;
+            width: 35%;
+            margin-top: 5px;
+        }
+
+        .principal2 .container4{
+            display: flex;
+            flex-direction: row;
+            width: 350px;
+        }
+        .principal2 .container4 .quad1{
+            background:rgb(0, 149, 255);
+            margin-top: 5px;
+            height: 160px;
+            width: 40%;
+            margin-left: 5px;
+        }
+        .principal2 .container4 .quad2{
+            background:gray;
+            margin-left: 5px;
+            height: 78px;
+            width: 37%;
+            margin-top: 5px;
+        }
+
+        .sos{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+        .principal2 .container4 .quad3{
+            background:rgb(212, 50, 175);
+            margin-left: 5px;
+            height: 75px;
+            width: 37%;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!--PRINCIPAL 1-->
+    <div class="principal1">
+        <div class="container1">
+            <div class="quad1">.</div>
+            <div class="quad2">.</div>
+            <div class="quad3">.</div>
+        </div>
+    
+        <div class="container2">
+            <div class="retangulo">.</div>
+        </div>
+    </div>
+    <!--FIM-->
+    
+    <!--PRINCIPAL 2-->
+    <div class="principal2">
+        <div class="container1">
+            <div class="quad1">.</div>
+            <div class="quad2">.</div>
+        </div>
+        
+        <div class="container2">
+            <div class="quad1">.</div>
+            <div class="retangulo">.</div>
+        </div>
+
+        <!--CONTAINERS ABAIXO-->
+        <div class="abaixo">
+            <div class="container3">
+                <div class="cima">
+                    <div class="quad1">.</div>
+                    <div class="quad2">.</div>
+                </div>
+                <div class="baixo">
+                    <div class="quad3">.</div>
+                    <div class="quad4">.</div>
+                </div>
+            </div>
+    
+            <div class="container4">
+                <div class="quad1">.</div>
+            
+                <div class="sos">
+                    <div class="quad2">.</div>
+                    <div class="quad3">.</div>
+                </div>
+            </div>
+
+            <div class="retangulo">.</div>
+        </div>
+        
+    </div>
+
+    
+</body>
+</html>
